@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: ["http://localhost:8000", "http://127.0.0.1:5500", "capstone3-steel-one.vercel.app"],
+  origin: ["http://localhost:8000", "http://127.0.0.1:5500", "https://capstone3-steel-one.vercel.app"],
   // Allow only the specified HTTP methods
   // methods: ["GET", "POST"],
   // Allow only the specified headers
